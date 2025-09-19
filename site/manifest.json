@@ -1,0 +1,51 @@
+{
+  "name": "root",
+  "type": "dir",
+  "children": [
+    {
+      "name": "Business",
+      "type": "dir",
+      "children": [
+        {
+          "name": "Deals",
+          "type": "dir",
+          "children": [
+            {
+              "name": "sourcing.txt",
+              "type": "file",
+              "path": "content/Business/Deals/sourcing.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diet",
+      "type": "dir",
+      "children": [
+        {
+          "name": "basics.txt",
+          "type": "file",
+          "path": "content/Diet/basics.txt"
+        }
+      ]
+    },
+    {
+      "name": "Life",
+      "type": "dir",
+      "children": [
+        {
+          "name": "Routine",
+          "type": "dir",
+          "children": [
+            {
+              "name": "morning.txt",
+              "type": "file",
+              "path": "content/Life/Routine/morning.txt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

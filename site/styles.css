@@ -1,0 +1,17 @@
+:root { --bg:#0b0f14; --panel:#111826; --ink:#e5ecf3; --muted:#8ea3b3; --accent:#86b7ff; }
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial}
+header{padding:16px 20px;border-bottom:1px solid #1d2636;background:#0d1320;position:sticky;top:0}
+h1{margin:0;font-size:18px} .muted{color:var(--muted);margin:4px 0 0}
+main{display:grid;grid-template-columns:320px 1fr;min-height:calc(100vh - 70px)}
+aside#tree{border-right:1px solid #1d2636;padding:14px 10px 20px;overflow:auto;background:var(--panel)}
+#viewer{padding:22px;overflow:auto}
+ul{list-style:none;margin:0;padding-left:14px}
+li{margin:4px 0}
+.folder, .file{display:inline-flex;align-items:center;gap:8px;cursor:pointer;padding:4px 6px;border-radius:6px}
+.file{color:#cfe3ff}
+.folder:hover, .file:hover{background:#162235}
+.folder .chev{transition:transform .15s}
+.folder.closed > .chev{transform:rotate(-90deg)}
+.name{user-select:none}
+pre{white-space:pre-wrap;background:#0f1829;border:1px solid #1d2636;padding:16px;border-radius:10px;overflow:auto}
+a.raw{color:var(--accent);text-decoration:none}
